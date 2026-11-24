@@ -1,0 +1,8 @@
+services:
+  # se genera el servicio cuyo rol sera la app
+  app:
+    build: .
+    container_name: crud-flask
+    ports:
+      - "8000:8000"
+    restart: unless-stoped

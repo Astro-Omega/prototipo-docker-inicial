@@ -1,0 +1,9 @@
+.vscode
+.venv
+
+.test/*
+!test/.gitkeep
+
+.env
+__pycache__/
+
